@@ -44,7 +44,7 @@ Transformação em tabelas relacionais com chaves primárias e estrangeiras.
 ## 🧱 Modelagem Física
 Implementação em SQL (Supabase/PostgreSQL).  
 Inclui criação de tabelas com tipos de dados, restrições e relacionamentos.  
-  Scripts disponíveis em [`scripts_sql/01_modelagem\01_modelagem_fisica.sql`](scripts_sql\01_modelagem\01_modelagem_fisica.sql).
+  Scripts disponíveis em [`scripts_sql/01_modelagem/01_modelagem_fisica.sql`](scripts_sql/01_modelagem/01_modelagem_fisica.sql).
 
 
 ---
