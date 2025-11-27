@@ -1,3 +1,5 @@
+-- Este arquivo SQL demonstra operações CRUD (Create, Read, Update, Delete) utilizando tabela 'cliente'.
+
 -- CREATE
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep)
 VALUES ('Carlos Silva', 35, CURRENT_DATE, 'Rua das Flores', '123', 'Centro', 'São Paulo', '01001000');

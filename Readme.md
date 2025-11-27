@@ -61,6 +61,8 @@ Demonstração das operações básicas:
 - **Update (UPDATE)**  
 - **Delete (DELETE)**  
 
+📂 Scripts das operações estão na pasta [`scripts_sql/`](scripts_sql/).
+
 📸 Prints das operações estão na pasta [`prints_crud/`](prints_crud/).
 
 ---
