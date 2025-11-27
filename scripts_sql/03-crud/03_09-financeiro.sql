@@ -15,3 +15,5 @@ WHERE id_lancamento = 1;
 
 -- DELETE
 DELETE FROM financeiro WHERE id_lancamento = 1;
+
+-- Fim do CRUD na tabela 'financeiro'.

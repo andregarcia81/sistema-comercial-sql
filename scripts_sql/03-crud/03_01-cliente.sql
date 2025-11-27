@@ -18,3 +18,5 @@ WHERE id_cliente = 10;
 -- DELETE
 DELETE FROM cliente
 WHERE id_cliente = 10;
+
+-- Fim do CRUD na tabela 'cliente'.

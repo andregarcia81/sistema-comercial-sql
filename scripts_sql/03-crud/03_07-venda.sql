@@ -15,3 +15,5 @@ WHERE id_venda = 1;
 
 -- DELETE
 DELETE FROM venda WHERE id_venda = 1;
+
+-- Fim do CRUD na tabela 'venda'.

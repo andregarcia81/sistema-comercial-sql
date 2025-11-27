@@ -15,3 +15,5 @@ WHERE id_produto = 1;
 
 -- DELETE
 DELETE FROM produto WHERE id_produto = 1;
+
+-- Fim do CRUD na tabela 'produto'.

@@ -15,3 +15,5 @@ WHERE id_fornecedor = 1;
 
 -- DELETE
 DELETE FROM fornecedor WHERE id_fornecedor = 1;
+
+-- Fim do CRUD na tabela 'fornecedor'.

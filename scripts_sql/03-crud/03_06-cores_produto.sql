@@ -15,3 +15,5 @@ WHERE id_cor = 1;
 
 -- DELETE
 DELETE FROM cores_produto WHERE id_cor = 1;
+
+-- Fim do CRUD na tabela 'cores_produto'.

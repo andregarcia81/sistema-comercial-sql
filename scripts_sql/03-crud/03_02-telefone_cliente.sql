@@ -15,3 +15,5 @@ WHERE id_telefone = 1;
 
 -- DELETE
 DELETE FROM telefone_cliente WHERE id_telefone = 1;
+
+-- Fim do CRUD na tabela 'telefone_cliente'.
