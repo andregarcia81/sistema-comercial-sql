@@ -14,9 +14,25 @@ O sistema comercial foi desenvolvido para integrar **vendas, estoque, clientes, 
   - 1:N → Cliente → Venda, Fornecedor → Produto  
   - N:N → Venda ↔ Produto (resolvido com Item_Venda)  
 
-📊 **Diagrama DER:**  
-![DER](diagramas/der.png)
+📊 **Diagrama Grafico DER:** 
+![DER](diagramas/Diagrama_Modelo_DER-Grafico.png)
 
+**Diagrama Texto DER:**  
+
+[CLIENTE] ------------------ (1:1) ------------------ [FINANCEIRO]
+   | (1:N)
+   |
+   v
+ [VENDA] ------------------ (N:N) ------------------ [PRODUTO]
+                               |
+                               v
+                         [ITEM_VENDA]
+
+[FORNECEDOR] ------------------ (1:N) ------------------ [PRODUTO]
+
+
+📊 **Diagrama Lógico:** 
+![DER](diagramas/Diagrama_Modelo_Logico-Grafico.png)
 ---
 
 ## 📊 Modelagem Lógica
