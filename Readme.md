@@ -69,7 +69,7 @@ Inclui criação de tabelas com tipos de dados, restrições e relacionamentos.
   Scripts dados_venda em [`scripts_sql/02-insercao-dados/02_07-dados_venda.sql`](scripts_sql/02-insercao-dados/02_07-dados_venda.sql).
 
   Scripts item_venda em [`scripts_sql/02-insercao-dados/02_08-item_venda.sql`](scripts_sql/02-insercao-dados/02_08-item_venda.sql).
-  
+
   Scripts financeiro em [`scripts_sql/02-insercao-dados/02_09-financeiro.sql`](scripts_sql/02-insercao-dados/02_09-financeiro.sql).
 
 ---
@@ -81,7 +81,7 @@ Demonstração das operações básicas:
 - **Update (UPDATE)**  
 - **Delete (DELETE)**  
 
-📂 Scripts das operações estão na pasta [`scripts_sql/`](scripts_sql/).
+📂 Scripts das operações estão na pasta [`/scripts_sql/03-crud`](/scripts_sql/03-crud/).
 
 📸 Prints das operações estão na pasta [`prints_crud/`](prints_crud/).
 
@@ -100,7 +100,7 @@ Demonstração das operações básicas:
 - Produtos e suas cores disponíveis  
 - Fluxo financeiro por cliente  
 
-Scripts disponíveis em [`scripts_sql/04_relatorios.sql`](scripts_sql/04_relatorios.sql).
+Scripts disponíveis em [`scripts_sql/04-relatorio`](scripts_sql/04-relatorio/).
 
 ---
 
