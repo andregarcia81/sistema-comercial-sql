@@ -37,7 +37,7 @@ O sistema comercial foi desenvolvido para integrar **vendas, estoque, clientes, 
 
 ## 📊 Modelagem Lógica
 Transformação em tabelas relacionais com chaves primárias e estrangeiras.  
-  Scripts disponíveis em [`scripts_sql/01_modelagem_fisica.sql`](scripts_sql/01_modelagem_fisica.sql).
+  Scripts disponíveis em [`scripts_sql/01_modelagem/01-modelagem-logica.sql`](scripts_sql/01_modelagem/01-modelagem-logica.sql)
 
 ---
 
