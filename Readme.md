@@ -37,14 +37,14 @@ O sistema comercial foi desenvolvido para integrar **vendas, estoque, clientes, 
 
 ## 📊 Modelagem Lógica
 Transformação em tabelas relacionais com chaves primárias e estrangeiras.  
-  Scripts disponíveis em [`scripts_sql/01-modelagem/01-modelagem-logica.sql`](scripts_sql/01-modelagem/01-modelagem-logica.sql)
+  Scripts disponíveis em [`scripts_sql/01-modelagem/02-logica`](scripts_sql/01-modelagem/02-logica/01-logica.sql)
 
 ---
 
 ## 🧱 Modelagem Física
 Implementação em SQL (Supabase/PostgreSQL).  
 Inclui criação de tabelas com tipos de dados, restrições e relacionamentos.  
-  Scripts disponíveis em [`scripts_sql/01-modelagem/01_modelagem_fisica.sql`](scripts_sql/01-modelagem/01_modelagem_fisica.sql).
+  Scripts disponíveis em [`scripts_sql/01-modelagem/01-fisica`](scripts_sql/01-modelagem/01-fisica/01_fisica.sql).
 
 ---
 
