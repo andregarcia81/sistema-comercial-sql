@@ -37,20 +37,32 @@ O sistema comercial foi desenvolvido para integrar **vendas, estoque, clientes, 
 
 ## 📊 Modelagem Lógica
 Transformação em tabelas relacionais com chaves primárias e estrangeiras.  
-  Scripts disponíveis em [`scripts_sql/01-modelagem/02-logica`](scripts_sql/01-modelagem/02-logica/01-logica.sql)
+  Scripts disponíveis em [`scripts_sql/01-modelagem/01-logica`](scripts_sql/01-modelagem/02-logica/01-logica.sql)
 
 ---
 
 ## 🧱 Modelagem Física
 Implementação em SQL (Supabase/PostgreSQL).  
 Inclui criação de tabelas com tipos de dados, restrições e relacionamentos.  
-  Scripts disponíveis em [`scripts_sql/01-modelagem/01-fisica`](scripts_sql/01-modelagem/01-fisica/01_fisica.sql).
+  Scripts disponíveis em [`scripts_sql/01-modelagem/02-fisica'](scripts_sql/01-modelagem/01-fisica/01_fisica.sql).
 
 ---
 
 ## 📂 Dados
 - Inserção de **500 registros em cada tabela**.  
 - Scripts disponíveis em [`scripts_sql/02-insercao-dados`](scripts_sql/02-insercao-dados).
+
+- Link dos scripts individuais.  
+
+  Scripts cliente em [`scripts_sql/02-insercao-dados/02_01-cliente.sql`](scripts_sql/01-modelagem/01-fisica/01_fisica.sql).
+  Scripts dados_telefonico em [`scripts_sql/02-insercao-dados/02_02-insercao_dados_telefone_cliente.sql`](scripts_sql/02-insercao-dados/02_02-telefone_cliente.sql).
+  Scripts fornecedor em [`scripts_sql/02-insercao-dados/02_03-fornecedor.sql`](scripts_sql/02-insercao-dados/02_03-fornecedor.sql).
+  Scripts contato_fornecedor em [`scripts_sql/02-insercao-dados/02_04-contato_fornecedor.sql`](scripts_sql/02-insercao-dados/02_04-contato_fornecedor.sql).
+  Scripts produto em [`scripts_sql/02-insercao-dados/02_05-produto.sql`](scripts_sql/02-insercao-dados/02_05-produto.sql).
+  Scripts cores_produto em [`scripts_sql/02-insercao-dados/02_06-cores_produto.sql`](scripts_sql/02-insercao-dados/02_06-cores_produto.sql).
+  Scripts dados_venda em [`scripts_sql/02-insercao-dados/02_07-dados_venda.sql`](scripts_sql/02-insercao-dados/02_07-dados_venda.sql).
+  Scripts item_venda em [`scripts_sql/02-insercao-dados/02_08-item_venda.sql`](scripts_sql/02-insercao-dados/02_08-item_venda.sql).
+  Scripts financeiro em [`scripts_sql/02-insercao-dados/02_09-financeiro.sql`](scripts_sql/02-insercao-dados/02_09-financeiro.sql).
 
 ---
 
