@@ -1,3 +1,9 @@
+--Insercao de dados - Tabela contato_fornecedor - Sistema Comercial Loja Nova Era Ltda.
+
+-- Dividindo em blocos de 50 registros para melhor controle das inserções.
+
+-- Bloco 01 (1–50)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (1, 1, 'Carlos Silva', 'carlos.silva@fornecedor1.com', '(11) 98888-1111', 'Gerente Comercial'),
 (2, 2, 'Mariana Souza', 'mariana.souza@fornecedor2.com', '(31) 97777-2222', 'Diretora de Vendas'),
@@ -51,7 +57,8 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (50, 50, 'Renata Almeida', 'renata.almeida@fornecedor50.com', '(19) 98877-0000', 'Analista de Logística');
 commit;
 
--- pacote 51 a 100
+-- Bloco 02 (51–100)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (51, 51, 'Cláudia Nogueira', 'claudia.nogueira@fornecedor51.com', '(27) 98888-5151', 'Gerente Comercial'),
 (52, 52, 'Roberto Lima', 'roberto.lima@fornecedor52.com', '(83) 97777-5252', 'Supervisor de Vendas'),
@@ -105,7 +112,8 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (100, 100, 'Pedro Oliveira', 'pedro.oliveira@fornecedor100.com', '(34) 98877-0000', 'Supervisor de Logística');
 commit;
 
--- pacote 101 a 150
+-- Bloco 03 (101–150)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (101, 101, 'Cláudio Nogueira', 'claudio.nogueira@fornecedor101.com', '(27) 98888-1010', 'Gerente Comercial'),
 (102, 102, 'Roberta Lima', 'roberta.lima@fornecedor102.com', '(83) 97777-1020', 'Supervisora de Vendas'),
@@ -159,7 +167,8 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (150, 150, 'Pedro Oliveira', 'pedro.oliveira@fornecedor150.com', '(34) 98877-1500', 'Supervisor de Logística');
 commit;
 
--- pacote 151 a 200
+-- Bloco 04 (151–200)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (151, 151, 'Cláudio Nogueira', 'claudio.nogueira@fornecedor151.com', '(27) 98888-1510', 'Gerente Comercial'),
 (152, 152, 'Roberta Lima', 'roberta.lima@fornecedor152.com', '(83) 97777-1520', 'Supervisora de Vendas'),
@@ -213,7 +222,8 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (200, 200, 'Pedro Oliveira', 'pedro.oliveira@fornecedor200.com', '(34) 98877-2000', 'Supervisor de Logística');
 commit;
 
--- pacote 201 a 250
+-- Bloco 05 (201–250)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (201, 201, 'Cláudio Nogueira', 'claudio.nogueira@fornecedor201.com', '(27) 98888-2010', 'Gerente Comercial'),
 (202, 202, 'Roberta Lima', 'roberta.lima@fornecedor202.com', '(83) 97777-2020', 'Supervisora de Vendas'),
@@ -267,7 +277,8 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (250, 250, 'Pedro Oliveira', 'pedro.oliveira@fornecedor250.com', '(34) 98877-2500', 'Supervisor de Logística');
 commit;
 
--- pacote 6 251 a 300
+-- Bloco 06 (251–300)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (251, 251, 'Cláudio Nogueira', 'claudio.nogueira@fornecedor251.com', '(27) 98888-2510', 'Gerente Comercial'),
 (252, 252, 'Roberta Lima', 'roberta.lima@fornecedor252.com', '(83) 97777-2520', 'Supervisora de Vendas'),
@@ -321,7 +332,8 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (300, 300, 'Pedro Oliveira', 'pedro.oliveira@fornecedor300.com', '(34) 98877-3000', 'Supervisor de Logística');
 commit;
 
--- pacote 6 301 a 350
+-- Bloco 07 (301–350)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (301, 301, 'Cláudio Nogueira', 'claudio.nogueira@fornecedor301.com', '(27) 98888-3010', 'Gerente Comercial'),
 (302, 302, 'Roberta Lima', 'roberta.lima@fornecedor302.com', '(83) 97777-3020', 'Supervisora de Vendas'),
@@ -375,7 +387,8 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (350, 350, 'Pedro Oliveira', 'pedro.oliveira@fornecedor350.com', '(34) 98877-3500', 'Supervisor de Logística');
 commit;
 
--- pacote 7 351 a 400
+-- Bloco 08 (351–400)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (351, 351, 'Cláudio Nogueira', 'claudio.nogueira@fornecedor351.com', '(27) 98888-3510', 'Gerente Comercial'),
 (352, 352, 'Roberta Lima', 'roberta.lima@fornecedor352.com', '(83) 97777-3520', 'Supervisora de Vendas'),
@@ -429,7 +442,8 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (400, 400, 'Pedro Oliveira', 'pedro.oliveira@fornecedor400.com', '(34) 98877-4000', 'Supervisor de Logística');
 commit;
 
--- pacote 8 401 a 450
+-- Bloco 09 (401–450)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (401, 401, 'Cláudio Nogueira', 'claudio.nogueira@fornecedor401.com', '(27) 98888-4010', 'Gerente Comercial'),
 (402, 402, 'Roberta Lima', 'roberta.lima@fornecedor402.com', '(83) 97777-4020', 'Supervisora de Vendas'),
@@ -483,7 +497,8 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (450, 450, 'Pedro Oliveira', 'pedro.oliveira@fornecedor450.com', '(34) 98877-4500', 'Supervisor de Logística');
 commit;
 
--- pacote 9 451 a 500
+-- Bloco 10 (451–500)
+
 INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, telefone, cargo) VALUES
 (451, 451, 'Cláudio Nogueira', 'claudio.nogueira@fornecedor451.com', '(27) 98888-4510', 'Gerente Comercial'),
 (452, 452, 'Roberta Lima', 'roberta.lima@fornecedor452.com', '(83) 97777-4520', 'Supervisora de Vendas'),
@@ -536,3 +551,5 @@ INSERT INTO contato_fornecedor (id_contato, id_fornecedor, nome_contato, email, 
 (499, 499, 'Aline Ferreira', 'aline.ferreira@fornecedor499.com', '(86) 91188-4990', 'Gerente Financeiro'),
 (500, 500, 'Pedro Oliveira', 'pedro.oliveira@fornecedor500.com', '(34) 98877-5000', 'Supervisor de Logística');
 commit;
+
+-- Fim do arquivo de inserção de dados para a tabela contato_fornecedor

@@ -1,3 +1,9 @@
+--Insercao de dados - Tabela telefone_cliente - Sistema Comercial Loja Nova Era Ltda.
+
+-- Dividindo em blocos de 50 registros para melhor controle das inserções.
+
+-- Bloco 01 (1–50)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (1, '11', '912345678', 'celular'),
 (2, '11', '32345678', 'fixo'),
@@ -51,7 +57,8 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (50, '11', '35559900', 'fixo');
 commit;
 
----- Pacote 2 (51–100)
+-- Bloco 02 (51–100)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (51, '19', '988776655', 'celular'),
 (52, '16', '32223344', 'fixo'),
@@ -105,7 +112,8 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (100, '16', '38884455', 'fixo');
 commit;
 
--- pacote 3 101-150
+-- Bloco 03 (101–150)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (101, '11', '988112233', 'celular'),
 (102, '19', '32224455', 'fixo'),
@@ -159,7 +167,8 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (150, '19', '38887799', 'fixo');
 commit;
 
--- pacote 4 151-200
+-- Bloco 04 (151–200)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (151, '11', '988667788', 'celular'),
 (152, '19', '32225566', 'fixo'),
@@ -213,7 +222,8 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (200, '19', '38889922', 'fixo');
 commit;
 
--- pacote 5 201-250
+-- Bloco 05 (201–250)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (201, '11', '988667799', 'celular'),
 (202, '19', '32226677', 'fixo'),
@@ -267,7 +277,8 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (250, '19', '38880044', 'fixo');
 commit;
 
--- pacote 6 251-300
+-- Bloco 06 (251–300)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (251, '11', '988667700', 'celular'),
 (252, '19', '32227711', 'fixo'),
@@ -321,7 +332,8 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (300, '19', '38882211', 'fixo');
 commit;
 
--- pacote 7 301-350
+-- Bloco 07 (301–350)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (301, '11', '988667711', 'celular'),
 (302, '19', '32228844', 'fixo'),
@@ -375,7 +387,8 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (350, '19', '38884455', 'fixo');
 commit;
 
--- pacote 8 351-400
+-- Bloco 08 (351–400)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (351, '11', '988667722', 'celular'),
 (352, '19', '32229966', 'fixo'),
@@ -429,7 +442,8 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (400, '19', '38885555', 'fixo');
 commit;
 
--- pacote 9 401-450
+-- Bloco 09 (401–450)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (401, '11', '988667733', 'celular'),
 (402, '19', '32221188', 'fixo'),
@@ -483,7 +497,8 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (450, '19', '38886677', 'fixo');
 commit;
 
--- pacote 10 451-500
+-- Bloco 10 (451–500)
+
 INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (451, '11', '988667744', 'celular'),
 (452, '19', '32223300', 'fixo'),
@@ -536,3 +551,5 @@ INSERT INTO telefone_cliente (id_cliente, ddd, numero, tipo) VALUES
 (499, '11', '977334544', 'celular'),
 (500, '19', '38888800', 'fixo');
 COMMIT;
+
+-- Fim do arquivo de inserção de dados para a tabela telefone_cliente

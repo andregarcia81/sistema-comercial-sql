@@ -1,3 +1,9 @@
+--Insercao de dados - Tabela item_venda - Sistema Comercial Loja Nova Era Ltda.
+
+-- Dividindo em blocos de 50 registros para melhor controle das inserções.
+
+-- Bloco 01 (1–50)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (1, 1, 1, 10, 25.90, 259.00),
 (2, 2, 2, 20, 8.50, 170.00),
@@ -51,7 +57,8 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (50, 50, 50, 20, 9.90, 198.00);
 commit;
 
---pacote 2 (51-100)
+-- Bloco 02 (51–100)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (51, 51, 1, 15, 25.90, 388.50),
 (52, 52, 2, 10, 8.50, 85.00),
@@ -105,7 +112,8 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (100, 100,50 ,25 ,9.90 ,247.50);
 commit;
 
---pacote 3 (101-150)
+-- Bloco 03 (101–150)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (101, 101, 1, 20, 25.90, 518.00),
 (102, 102, 2, 15, 8.50, 127.50),
@@ -158,7 +166,9 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (149, 149,49 ,15 ,89.90 ,1348.50),
 (150, 150,50 ,30 ,9.90 ,297.00);
 commit;
---pacote 4 (151-200)
+
+-- Bloco 04 (151–200)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (151, 151, 1, 25, 25.90, 647.50),
 (152, 152, 2, 20, 8.50, 170.00),
@@ -211,7 +221,9 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (199, 199,49 ,18 ,89.90 ,1618.20),
 (200, 200,50 ,35 ,9.90 ,346.50);
 commit;
---pacote 5 (201-250)
+
+-- Bloco 05 (201–250)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (201, 201, 1, 30, 25.90, 777.00),
 (202, 202, 2, 25, 8.50, 212.50),
@@ -264,7 +276,9 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (249, 249,49 ,20 ,89.90 ,1798.00),
 (250, 250,50 ,40 ,9.90 ,396.00);
 commit;
---pacote 6 (251-300)
+
+-- Bloco 06 (251–300)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (251, 251, 1, 35, 25.90, 906.50),
 (252, 252, 2, 30, 8.50, 255.00),
@@ -317,7 +331,9 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (299, 299,49 ,25 ,89.90 ,2247.50),
 (300, 300,50 ,45 ,9.90 ,445.50);
 commit;
---pacote 7 (301-350)
+
+-- Bloco 07 (301–350)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (301, 301, 1, 40, 25.90, 1036.00),
 (302, 302, 2, 35, 8.50, 297.50),
@@ -370,7 +386,9 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (349, 349,49 ,30 ,89.90 ,2697.00),
 (350, 350,50 ,50 ,9.90 ,495.00);
 commit;
---pacote 8 (351-400)
+
+-- Bloco 08 (351–400)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (351, 351, 1, 45, 25.90, 1165.50),
 (352, 352, 2, 40, 8.50, 340.00),
@@ -423,7 +441,9 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (399, 399,49 ,35 ,89.90 ,3146.50),
 (400, 400,50 ,55 ,9.90 ,544.50);
 commit;
---pacote 9 (401-450)
+
+-- Bloco 09 (401–450)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (401, 401, 1, 50, 25.90, 1295.00),
 (402, 402, 2, 45, 8.50, 382.50),
@@ -476,7 +496,9 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (449, 449,49 ,40 ,89.90 ,3596.00),
 (450, 450,50 ,60 ,9.90 ,594.00);
 commit;
---pacote 10 (451-500)
+
+-- Bloco 10 (451–500)
+
 INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitario, subtotal) VALUES
 (451, 451, 1, 55, 25.90, 1424.50),
 (452, 452, 2, 50, 8.50, 425.00),
@@ -529,3 +551,5 @@ INSERT INTO item_venda (id_item, id_venda, id_produto, quantidade, preco_unitari
 (499, 499,49 ,45 ,89.90 ,4045.50),
 (500, 500,50 ,65 ,9.90 ,643.50);
 commit;
+
+-- Fim do arquivo de inserção de dados para a tabela item_venda

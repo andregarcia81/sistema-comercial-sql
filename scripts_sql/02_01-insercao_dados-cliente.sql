@@ -1,3 +1,9 @@
+--Insercao de dados - Tabela cliente - Sistema Comercial Loja Nova Era Ltda.
+
+-- Dividindo em blocos de 50 registros para melhor controle das inserções.
+
+-- Bloco 01 (1–50)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Ana Souza', 28, '2022-05-10', 'Rua das Flores', '123', 'Centro', 'São Paulo', '01001000'),
 ('Carlos Silva', 35, '2021-11-22', 'Avenida Paulista', '1500', 'Bela Vista', 'São Paulo', '01310000'),
@@ -51,7 +57,8 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Luciana Prado', 29, '2024-11-05', 'Rua Ceará', '100', 'Centro', 'Ribeirão Preto', '14018000');
 commit;
 
--- Pacote 2 (51–100)
+-- Bloco 2 (51–100)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Luana Ribeiro', 29, '2022-06-12', 'Rua das Acácias', '51', 'Centro', 'São Paulo', '01002000'),
 ('Pedro Almeida', 33, '2021-09-18', 'Avenida Brasil', '52', 'Jardim Paulista', 'Campinas', '13020000'),
@@ -105,7 +112,8 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Nicolas Duarte', 28, '2024-04-20', 'Rua Ceará', '100', 'Bela Vista', 'Sorocaba', '18019000');
 commit;
 
--- Pacote 3 (101–150)
+-- Bloco 3 (101–150)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Thiago Nunes', 32, '2022-07-15', 'Rua das Laranjeiras', '101', 'Centro', 'São Paulo', '01003000'),
 ('Camila Ferreira', 27, '2021-10-20', 'Avenida Goiás', '102', 'Jardim Paulista', 'Campinas', '13021000'),
@@ -159,7 +167,8 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Cliente 150', 41, '2023-11-01', 'Rua das Hortênsias', '150', 'Centro', 'São Paulo', '01012000');
 commit;
 
--- Pacote 4 (151–200)
+-- Bloco 4 (151–200)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Daniel Carvalho', 31, '2022-08-20', 'Rua das Palmeiras', '151', 'Centro', 'São Paulo', '01004000'),
 ('Larissa Gomes', 26, '2021-11-05', 'Avenida Rio Branco', '152', 'Jardim Paulista', 'Campinas', '13022000'),
@@ -213,7 +222,8 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Cliente 200', 40, '2023-12-01', 'Rua das Violetas', '200', 'Centro', 'São Paulo', '01013000');
 commit;
 
--- Pacote 5 (201–250)
+-- Bloco 5 (201–250)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Juliana Cardoso', 29, '2022-09-15', 'Rua das Magnólias', '201', 'Centro', 'São Paulo', '01005000'),
 ('André Barbosa', 37, '2021-12-01', 'Avenida Independência', '202', 'Jardim Paulista', 'Campinas', '13023000'),
@@ -267,7 +277,8 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Cliente 250', 39, '2023-12-20', 'Rua das Orquídeas', '250', 'Centro', 'São Paulo', '01014000');
 commit;
 
--- Pacote 6 (251–300)
+-- Bloco 6 (251–300)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Marcos Vieira', 34, '2022-10-05', 'Rua das Oliveiras', '251', 'Centro', 'São Paulo', '01006000'),
 ('Tatiane Lopes', 28, '2021-12-15', 'Avenida Brasil', '252', 'Jardim Paulista', 'Campinas', '13024000'),
@@ -321,7 +332,8 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Cliente 300', 41, '2023-12-30', 'Rua das Camélias', '300', 'Centro', 'São Paulo', '01015000');
 commit;
 
--- Pacote 7 (301–350)
+-- Bloco 7 (301–350)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Renata Oliveira', 30, '2022-11-05', 'Rua das Acácias', '301', 'Centro', 'São Paulo', '01007000'),
 ('Bruno Castro', 38, '2021-12-20', 'Avenida Paulista', '302', 'Jardim Paulista', 'Campinas', '13031000'),
@@ -375,7 +387,8 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Cliente 350', 42, '2023-12-31', 'Rua das Rosas', '350', 'Centro', 'São Paulo', '01016000');
 commit;
 
--- Pacote 8 (351–400)
+-- Bloco 8 (351–400)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Paulo Henrique', 36, '2022-12-05', 'Rua das Hortênsias', '351', 'Centro', 'São Paulo', '01008000'),
 ('Aline Souza', 29, '2021-12-25', 'Avenida Rio Branco', '352', 'Jardim Paulista', 'Campinas', '13033000'),
@@ -429,7 +442,8 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Cliente 400', 40, '2024-01-05', 'Rua das Bromélias', '400', 'Centro', 'São Paulo', '01017000');
 commit;
 
--- Pacote 9 (401–450)
+-- Bloco 9 (401–450)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Helena Duarte', 31, '2023-01-10', 'Rua das Violetas', '401', 'Centro', 'São Paulo', '01009000'),
 ('Mateus Correia', 36, '2022-01-25', 'Avenida Brasil', '402', 'Jardim Paulista', 'Campinas', '13035000'),
@@ -483,7 +497,8 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Cliente 450', 40, '2024-02-01', 'Rua das Dalias', '450', 'Centro', 'São Paulo', '01018000');
 commit;
 
--- Pacote 10 (451–500)
+-- Bloco 10 (451–500)
+
 INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, cep) VALUES
 ('Fábio Almeida', 32, '2023-02-10', 'Rua das Dalias', '451', 'Centro', 'São Paulo', '01019000'),
 ('Patrícia Santos', 27, '2022-02-15', 'Avenida Brasil', '452', 'Jardim Paulista', 'Campinas', '13036000'),
@@ -536,3 +551,5 @@ INSERT INTO cliente (nome, idade, data_cadastro, rua, numero, bairro, cidade, ce
 ('Anderson Barros', 33, '2020-11-17', 'Rua Amazonas', '499', 'Centro', 'Ribeirão Preto', '14027000'),
 ('Cliente 500', 41, '2024-03-01', 'Rua das Tulipas', '500', 'Centro', 'São Paulo', '01020000');
 commit;
+
+-- Fim do arquivo de inserção de dados para a tabela cliente

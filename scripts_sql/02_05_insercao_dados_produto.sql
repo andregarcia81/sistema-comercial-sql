@@ -1,3 +1,9 @@
+--Insercao de dados - Tabela produto - Sistema Comercial Loja Nova Era Ltda.
+
+-- Dividindo em blocos de 50 registros para melhor controle das inserções.
+
+-- Bloco 01 (1–50)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (1, 1, 'Arroz Tipo 1', 'Alimentos', 25.90, 120),
 (2, 2, 'Feijão Carioca', 'Alimentos', 8.50, 200),
@@ -51,7 +57,8 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (50, 50, 'Energético 250ml', 'Bebidas', 9.90, 300);
 commit;
 
--- pacote 2 (51-100)
+-- Bloco 02 (51–100)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (51, 1, 'Farinha de Trigo', 'Alimentos', 12.90, 150),
 (52, 2, 'Sal Refinado', 'Alimentos', 3.20, 400),
@@ -104,7 +111,9 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (99, 49, 'Gin Premium', 'Bebidas', 99.90, 90),
 (100, 50, 'Energético Zero Açúcar 250ml', 'Bebidas', 10.90, 280);
 commit;
--- pacote 3 (101-150)
+
+-- Bloco 03 (101–150)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (101, 1, 'Cereal Matinal', 'Alimentos', 14.90, 160),
 (102, 2, 'Mel Natural', 'Alimentos', 19.90, 140),
@@ -157,7 +166,9 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (149, 49, 'Cachaça Premium', 'Bebidas', 79.90, 100),
 (150, 50, 'Energético com Taurina 250ml', 'Bebidas', 11.90, 260);
 commit;
--- pacote 4 (151-200)
+
+-- Bloco 04 (151–200)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (151, 1, 'Granola', 'Alimentos', 16.90, 140),
 (152, 2, 'Geleia de Frutas', 'Alimentos', 12.90, 130),
@@ -210,7 +221,9 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (199, 49, 'Cachaça Ouro', 'Bebidas', 89.90, 90),
 (200, 50, 'Energético Light 250ml', 'Bebidas', 12.90, 240);
 commit;
--- pacote 5 (201-250)
+
+-- Bloco 05 (201–250)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (201, 1, 'Aveia em Flocos', 'Alimentos', 13.90, 130),
 (202, 2, 'Doce de Leite', 'Alimentos', 14.90, 120),
@@ -263,7 +276,9 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (249, 49, 'Cachaça Artesanal', 'Bebidas', 99.90, 80),
 (250, 50, 'Energético Zero Açúcar e Cafeína 250ml', 'Bebidas', 13.90, 220);
 commit;
--- pacote 6 (251-300)
+
+-- Bloco 06 (251–300)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (251, 1, 'Semente de Chia', 'Alimentos', 18.90, 120),
 (252, 2, 'Pasta de Amendoim', 'Alimentos', 16.90, 110),
@@ -317,7 +332,8 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (300, 50, 'Energético com Ginseng 250ml', 'Bebidas', 14.90, 200);
 commit;
 
--- pacote 7 (301-350)
+-- Bloco 07 (301–350)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (301, 1, 'Semente de Linhaça', 'Alimentos', 17.90, 110),
 (302, 2, 'Pasta de Amêndoas', 'Alimentos', 19.90, 100),
@@ -370,7 +386,9 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (349, 49, 'Cachaça Prata', 'Bebidas', 79.90, 60),
 (350, 50, 'Energético com Guaraná 250ml', 'Bebidas', 15.90, 180);
 commit;
--- pacote 8 (351-400)
+
+-- Bloco 08 (351–400)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (351, 1, 'Semente de Abóbora', 'Alimentos', 16.90, 100),
 (352, 2, 'Geleia Diet', 'Alimentos', 13.90, 110),
@@ -423,7 +441,9 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (399, 49, 'Cachaça Envelhecida em Carvalho', 'Bebidas', 119.90, 50),
 (400, 50, 'Energético com Vitaminas 250ml', 'Bebidas', 16.90, 160);
 commit;
--- pacote 9 (401-450)
+
+-- Bloco 09 (401–450)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (401, 1, 'Semente de Gergelim', 'Alimentos', 15.90, 90),
 (402, 2, 'Geleia de Morango Diet', 'Alimentos', 14.90, 100),
@@ -476,7 +496,9 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (449, 49, 'Cachaça Envelhecida Premium', 'Bebidas', 129.90, 40),
 (450, 50, 'Energético com Taurina e Cafeína 250ml', 'Bebidas', 17.90, 140);
 commit;
--- pacote 10 (451-500)
+
+-- Bloco 10 (451–500)
+
 INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, estoque) VALUES
 (451, 1, 'Semente de Papoula', 'Alimentos', 14.90, 80),
 (452, 2, 'Geleia de Frutas Vermelhas Diet', 'Alimentos', 15.90, 90),
@@ -529,3 +551,5 @@ INSERT INTO produto (id_produto, id_fornecedor, nome_produto, categoria, preco, 
 (499, 49, 'Cachaça Envelhecida Extra Premium', 'Bebidas', 139.90, 30),
 (500, 50, 'Energético com Ginseng e Taurina 250ml', 'Bebidas', 18.90, 120);
 commit;
+
+-- Fim do arquivo de inserção de dados para a tabela produto

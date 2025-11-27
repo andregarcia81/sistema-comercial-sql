@@ -1,3 +1,9 @@
+--Insercao de dados - Tabela financeiro - Sistema Comercial Loja Nova Era Ltda.
+
+-- Dividindo em blocos de 50 registros para melhor controle das inserções.
+
+-- Bloco 01 (1–50)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (1, 1, 'Receita', 'Venda de Arroz Tipo 1', 259.00, '2025-01-05', 'Pago'),
 (2, 2, 'Receita', 'Venda de Feijão Carioca', 170.00, '2025-01-06', 'Pago'),
@@ -50,7 +56,9 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (49, 49, 'Receita', 'Venda de Vodka Importada', 719.20, '2025-02-22', 'Pago'),
 (50, 50, 'Receita', 'Venda de Energético', 198.00, '2025-02-23', 'Pago');
 commit;
--- Pacote 2 (51 a 100)
+
+-- Bloco 02 (51–100)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (51, 51, 'Receita', 'Venda de Mesa Digitalizadora', 4500.00, '2025-02-24', 'Pago'),
 (52, 52, 'Receita', 'Venda de Monitor 27"', 2200.00, '2025-02-25', 'Pago'),
@@ -103,7 +111,9 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (99, 99, 'Receita', 'Venda de Relógio de Pulso', 1500.00, '2025-04-13', 'Pago'),
 (100, 100, 'Receita', 'Venda de Perfume Importado', 2200.00, '2025-04-14', 'Pago');
 commit;
--- Pacote 3 (101 a 150)
+
+-- Bloco 03 (101–150)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (101, 101, 'Receita', 'Venda de Smartphone 256GB', 22000.00, '2025-04-15', 'Pago'),
 (102, 102, 'Receita', 'Venda de Tablet 10"', 15000.00, '2025-04-16', 'Pago'),
@@ -156,7 +166,9 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (149, 149, 'Receita', 'Venda de Cardigan de Lã', 1599.00, '2025-06-02', 'Pago'),
 (150, 150, 'Receita', 'Venda de Macacão Jeans', 1699.00, '2025-06-03', 'Pago');
 commit;
--- Pacote 4 (151 a 200)
+
+-- Bloco 04 (151–200)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (151, 151, 'Receita', 'Venda de Buffet para Sala de Jantar', 9000.00, '2025-06-04', 'Pago'),
 (152, 152, 'Receita', 'Venda de Cristaleira', 8500.00, '2025-06-05', 'Pago'),
@@ -209,7 +221,9 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (199, 199, 'Receita', 'Venda de Livro Infantil de Histórias em Quadrinhos', 999.50, '2025-07-22', 'Pago'),
 (200, 200, 'Receita', 'Venda de Mix de Frutas Secas', 250.00, '2025-07-23', 'Pago');
 commit;
--- Pacote 5 (201 a 250)
+
+-- Bloco 05 (201–250)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (201, 201, 'Receita', 'Venda de Barrinha de Proteína', 200.00, '2025-07-24', 'Pago'),
 (202, 202, 'Receita', 'Venda de Sementes de Linhaça', 130.00, '2025-07-25', 'Pago'),
@@ -262,7 +276,9 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (249, 249, 'Receita', 'Venda de Vinho Malbec', 899.00, '2025-09-10', 'Pago'),
 (250, 250, 'Receita', 'Venda de Vodka Saborizada', 799.00, '2025-09-11', 'Pago');
 commit;
--- Pacote 6 (251 a 300)
+
+-- Bloco 06 (251–300)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (251, 251, 'Receita', 'Venda de Suco Natural de Laranja', 250.00, '2025-09-12', 'Pago'),
 (252, 252, 'Receita', 'Venda de Câmera de Ação 4K', 3500.00, '2025-09-13', 'Pago'),
@@ -315,7 +331,9 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (299, 299, 'Receita', 'Venda de Tequila Reposado', 899.00, '2025-10-30', 'Pago'),
 (300, 300, 'Receita', 'Venda de Suco Natural de Abacaxi com Hortelã', 230.00, '2025-10-31', 'Pago');
 commit;
--- Pacote 7 (301 a 350)
+
+-- Bloco 07 (301–350)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (301, 301, 'Receita', 'Venda de Câmera Profissional DSLR', 8000.00, '2025-11-01', 'Pago'),
 (302, 302, 'Receita', 'Venda de Lente Prime 50mm', 3000.00, '2025-11-02', 'Pago'),
@@ -368,7 +386,9 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (349, 349, 'Receita', 'Venda de Suco Natural de Melancia com Gengibre', 240.00, '2025-12-19', 'Pago'),
 (350, 350, 'Receita', 'Venda de Câmera Instantânea', 2500.00, '2025-12-20', 'Pago');
 commit;
--- Pacote 8 (351 a 400)
+
+-- Bloco 08 (351–400)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (351, 351, 'Receita', 'Venda de Lente Fixa 35mm', 2500.00, '2025-12-21', 'Pago'),
 (352, 352, 'Receita', 'Venda de Tripé de Alumínio', 1000.00, '2025-12-22', 'Pago'),
@@ -421,7 +441,9 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (399, 399, 'Receita', 'Venda de Perfume Floral Importado', 2800.00, '2026-02-07', 'Pago'),
 (400, 400, 'Receita', 'Venda de Smartphone com Tela Dobrável', 6000.00, '2026-02-08', 'Pago');
 commit;
--- Pacote 9 (401 a 450)
+
+-- Bloco 09 (401–450)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (401, 401, 'Receita', 'Venda de Tablet com Processador Avançado', 4000.00, '2026-02-09', 'Pago'),
 (402, 402, 'Receita', 'Venda de Fone de Ouvido Bluetooth Esportivo', 1800.00, '2026-02-10', 'Pago'),
@@ -474,7 +496,9 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (449, 449, 'Receita', 'Venda de Smartphone com Câmera Quádrupla', 5000.00, '2026-03-29', 'Pago'),
 (450, 450, 'Receita', 'Venda de Tablet com Suporte para Teclado', 4500.00, '2026-03-30', 'Pago');
 commit;
--- Pacote 10 (451 a 500)
+
+-- Bloco 10 (451–500)
+
 INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_lancamento, status) VALUES
 (451, 451, 'Receita', 'Venda de Fone de Ouvido com Cancelamento de Ruído', 2500.00, '2026-03-31', 'Pago'),
 (452, 452, 'Receita', 'Venda de Caixa de Som Bluetooth Premium', 1300.00, '2026-04-01', 'Pago'),
@@ -527,3 +551,5 @@ INSERT INTO financeiro (id_lancamento, id_venda, tipo, descricao, valor, data_la
 (499, 499, 'Receita', 'Venda de Tablet com Suporte para Caneta Stylus e Teclado', 5000.00, '2026-05-18', 'Pago'),
 (500, 500, 'Receita', 'Venda de Fone de Ouvido Over-Ear com Cancelamento Ativo de Ruído', 3000.00, '2026-05-19', 'Pago');
 commit;
+
+-- Fim do arquivo de inserção de dados para a tabela financeiro

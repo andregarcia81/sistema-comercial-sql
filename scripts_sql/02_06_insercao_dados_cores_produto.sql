@@ -1,3 +1,9 @@
+--Insercao de dados - Tabela cores_produto - Sistema Comercial Loja Nova Era Ltda.
+
+-- Dividindo em blocos de 50 registros para melhor controle das inserções.
+
+-- Bloco 01 (1–50)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (1, 1, 'Branco', '#FFFFFF'),
 (2, 2, 'Preto', '#000000'),
@@ -51,7 +57,8 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (50, 50, 'Verde Neon', '#39FF14');
 commit;
 
--- pacote 2 (51-100)
+-- Bloco 02 (51–100)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (51, 51, 'Azul Cobalto', '#0047AB'),
 (52, 52, 'Verde Esmeralda', '#50C878'),
@@ -104,7 +111,9 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (99, 99, 'Cinza Neve', '#EDEDED'),
 (100, 100, 'Preto Ônix', '#353839');
 commit;
--- pacote 3 (101-150)
+
+-- Bloco 03 (101–150)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (101, 101, 'Branco Algodão', '#FFFFFF'),
 (102, 102, 'Azul Safira', '#0F52BA'),
@@ -157,7 +166,9 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (149, 149, 'Branco Marfim', '#FFFFF0'),
 (150, 150, 'Azul Índigo', '#4B0082');
 commit;
--- pacote 4 (151-200)
+
+-- Bloco 04 (151–200)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (151, 151, 'Verde Água', '#00FFFF'),
 (152, 152, 'Rosa Salmão', '#FF91A4'),
@@ -210,7 +221,9 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (199, 199, 'Cinza Grafite', '#383838'),
 (200, 200, 'Branco Cristal', '#F0FFFF');
 commit;
--- pacote 5 (201-250)
+
+-- Bloco 05 (201–250)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (201, 201, 'Azul Céu', '#87CEEB'),
 (202, 202, 'Verde Pistache', '#93C572'),
@@ -263,7 +276,9 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (249, 249, 'Azul Safira', '#0F52BA'),
 (250, 250, 'Verde Oliva', '#808000');
 commit;
--- pacote 6 (251-300)
+
+-- Bloco 06 (251–300)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (251, 251, 'Roxo Lavanda', '#E6E6FA'),
 (252, 252, 'Cinza Aço', '#B0C4DE'),
@@ -316,7 +331,9 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (299, 299, 'Rosa Salmão', '#FF91A4'),
 (300, 300, 'Marrom Castanho', '#A52A2A');
 commit;
--- pacote 7 (301-350)
+
+-- Bloco 07 (301–350)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (301, 301, 'Amarelo Mostarda', '#FFDB58'),
 (302, 302, 'Laranja Coral', '#FF7F50'),
@@ -369,7 +386,9 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (349, 349, 'Verde Pistache', '#93C572'),
 (350, 350, 'Roxo Ameixa', '#DDA0DD');
 commit;
--- pacote 8 (351-400)
+
+-- Bloco 08 (351–400)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (351, 351, 'Cinza Neve', '#EDEDED'),
 (352, 352, 'Preto Ônix', '#353839'),
@@ -422,7 +441,9 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (399, 399, 'Cinza Aço', '#B0C4DE'),
 (400, 400, 'Preto Carvão', '#2F2F2F');
 commit;
--- pacote 9 (401-450)
+
+-- Bloco 09 (401–450)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (401, 401, 'Branco Marfim', '#FFFFF0'),
 (402, 402, 'Azul Índigo', '#4B0082'),
@@ -475,7 +496,9 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (449, 449, 'Laranja Coral', '#FF7F50'),
 (450, 450, 'Vermelho Tomate', '#FF6347');
 commit;
--- pacote 10 (451-500)
+
+-- Bloco 10 (451–500)
+
 INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (451, 451, 'Cinza Grafite', '#383838'),
 (452, 452, 'Branco Cristal', '#F0FFFF'),
@@ -528,3 +551,5 @@ INSERT INTO cores_produto (id_cor, id_produto, nome_cor, codigo_hex) VALUES
 (499, 499, 'Preto Ônix', '#353839'),
 (500, 500, 'Branco Algodão', '#FFFFFF');
 commit;
+
+-- Fim do arquivo de inserção de dados para a tabela cores_produto

@@ -1,3 +1,9 @@
+--Insercao de dados - Tabela cores_produto - Sistema Comercial Loja Nova Era Ltda.
+
+-- Dividindo em blocos de 50 registros para melhor controle das inserções.
+
+-- Bloco 01 (1–50)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (1, 1, 1, 10, 25.90, '2025-01-05', 'João Silva'),
 (2, 2, 2, 20, 8.50, '2025-01-06', 'Maria Oliveira'),
@@ -50,7 +56,9 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (49, 49, 49, 8, 89.90, '2025-02-22', 'Marcelo Santos'),
 (50, 50, 50, 20, 9.90, '2025-02-23', 'Renata Almeida');
 commit;
---pacote 02 (51 a 100)
+
+-- Bloco 02 (51–100)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (51, 1, 1, 15, 25.90, '2025-02-24', 'Ana Paula'),
 (52, 2, 2, 18, 8.50, '2025-02-25', 'Bruno Silva'),
@@ -103,7 +111,9 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (99, 49, 49, 10, 89.90, '2025-04-13', 'Wesley Almeida'),
 (100, 50, 50, 25, 9.90, '2025-04-14', 'Yasmin Silva');
 commit;
---pacote 03 (101 a 150)
+
+-- Bloco 03 (101–150)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (101, 1, 1, 20, 25.90, '2025-04-15', 'Ana Carolina'),
 (102, 2, 2, 22, 8.50, '2025-04-16', 'Bruno Henrique'),
@@ -156,7 +166,9 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (149, 49, 49, 12, 89.90, '2025-06-02', 'Wesley Almeida'),
 (150, 50, 50, 30, 9.90, '2025-06-03', 'Yasmin Silva');
 commit;
---pacote 04 (151 a 200)
+
+-- Bloco 04 (151–200)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (151, 1, 1, 25, 25.90, '2025-06-04', 'Ana Carolina'),
 (152, 2, 2, 25, 8.50, '2025-06-05', 'Bruno Henrique'),
@@ -209,7 +221,9 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (199, 49, 49, 15, 89.90, '2025-07-22', 'Wesley Almeida'),
 (200, 50, 50, 35, 9.90, '2025-07-23', 'Yasmin Silva');
 commit;
---pacote 05 (201 a 250)
+
+-- Bloco 05 (201–250)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (201, 1, 1, 30, 25.90, '2025-07-24', 'Ana Carolina'),
 (202, 2, 2, 28, 8.50, '2025-07-25', 'Bruno Henrique'),
@@ -262,7 +276,9 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (249, 49, 49, 18, 89.90, '2025-09-10', 'Wesley Almeida'),
 (250, 50, 50, 40, 9.90, '2025-09-11', 'Yasmin Silva');
 commit;
---pacote 06 (251 a 300)
+
+-- Bloco 06 (251–300)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (251, 1, 1, 35, 25.90, '2025-09-12', 'Ana Carolina'),
 (252, 2, 2, 30, 8.50, '2025-09-13', 'Bruno Henrique'),
@@ -315,7 +331,9 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (299, 49, 49, 20, 89.90, '2025-10-30', 'Wesley Almeida'),
 (300, 50, 50, 45, 9.90, '2025-10-31', 'Yasmin Silva');
 commit;
---pacote 07 (301 a 350)
+
+-- Bloco 07 (301–350)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (301, 1, 1, 40, 25.90, '2025-11-01', 'Ana Carolina'),
 (302, 2, 2, 35, 8.50, '2025-11-02', 'Bruno Henrique'),
@@ -368,7 +386,9 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (349, 49, 49, 25, 89.90, '2025-12-19', 'Wesley Almeida'),
 (350, 50, 50, 50, 9.90, '2025-12-20', 'Yasmin Silva');
 commit;
---pacote 08 (351 a 400)
+
+-- Bloco 08 (351–400)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (351, 1, 1, 45, 25.90, '2025-12-21', 'Ana Carolina'),
 (352, 2, 2, 40, 8.50, '2025-12-22', 'Bruno Henrique'),
@@ -421,7 +441,9 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (399, 49, 49, 30, 89.90, '2026-02-07', 'Wesley Almeida'),
 (400, 50, 50, 55, 9.90, '2026-02-08', 'Yasmin Silva');
 commit;
---pacote 09 (401 a 450)
+
+-- Bloco 09 (401–450)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (401, 1, 1, 50, 25.90, '2026-02-09', 'Ana Carolina'),
 (402, 2, 2, 45, 8.50, '2026-02-10', 'Bruno Henrique'),
@@ -474,7 +496,9 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (449, 49, 49, 35, 89.90, '2026-03-29', 'Wesley Almeida'),
 (450, 50, 50, 60, 9.90, '2026-03-30', 'Yasmin Silva');
 commit;
---pacote 10 (451 a 500)
+
+-- Bloco 10 (451–500)
+
 INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitario, data_venda, cliente) VALUES
 (451, 1, 1, 55, 25.90, '2026-03-31', 'Ana Carolina'),
 (452, 2, 2, 50, 8.50, '2026-04-01', 'Bruno Henrique'),
@@ -527,3 +551,5 @@ INSERT INTO venda (id_venda, id_produto, id_fornecedor, quantidade, preco_unitar
 (499, 49, 49, 40, 89.90, '2026-05-18', 'Wesley Almeida'),
 (500, 50, 50, 65, 9.90, '2026-05-19', 'Yasmin Silva');
 commit;
+
+-- Fim do arquivo de inserção de dados para a tabela venda

@@ -1,3 +1,9 @@
+--Insercao de dados - Tabela fornecedor - Sistema Comercial Loja Nova Era Ltda.
+
+-- Dividindo em blocos de 50 registros para melhor controle das inserções.
+
+-- Bloco 01 (1–50)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (1, 'Comercial Silva Ltda', '12.345.678/0001-01', 'São Paulo', 'SP', '(11) 3234-5678'),
 (2, 'Distribuidora Oliveira ME', '23.456.789/0001-02', 'Campinas', 'SP', '(19) 3344-5566'),
@@ -51,7 +57,8 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (50, 'Confecções Tropical Ltda', '51.234.567/0001-50', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
 
---pacote 51 ao 100
+-- Bloco 02 (51–100)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (51, 'Comercial Paulista Ltda', '62.345.678/0001-51', 'São Paulo', 'SP', '(11) 3233-4455'),
 (52, 'Distribuidora Minas ME', '73.456.789/0001-52', 'Belo Horizonte', 'MG', '(31) 3444-5566'),
@@ -105,7 +112,8 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (100, 'Confecções Almeida Ltda', '01.234.567/0001-100', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
 
---pacote 101 ao 150
+-- Bloco 03 (101–150)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (101, 'Comercial União Ltda', '02.345.678/0001-101', 'São Paulo', 'SP', '(11) 3233-4455'),
 (102, 'Distribuidora Sul ME', '13.456.789/0001-102', 'Porto Alegre', 'RS', '(51) 3444-5566'),
@@ -159,7 +167,8 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (150, 'Confecções Almeida Ltda', '01.234.567/0001-150', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
 
---pacote 151 ao 200
+-- Bloco 04 (151–200)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (151, 'Comercial Paulista Ltda', '02.345.678/0001-151', 'São Paulo', 'SP', '(11) 3233-4455'),
 (152, 'Distribuidora Minas ME', '13.456.789/0001-152', 'Belo Horizonte', 'MG', '(31) 3444-5566'),
@@ -213,7 +222,8 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (200, 'Confecções Almeida Ltda', '01.234.567/0001-200', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
 
---pacote 201 ao 250
+-- Bloco 05 (201–250)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (201, 'Comercial União Ltda', '02.345.678/0001-201', 'São Paulo', 'SP', '(11) 3233-4455'),
 (202, 'Distribuidora Sul ME', '13.456.789/0001-202', 'Porto Alegre', 'RS', '(51) 3444-5566'),
@@ -267,7 +277,8 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (250, 'Confecções Almeida Ltda', '01.234.567/0001-250', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
 
---pacote 251 ao 300
+-- Bloco 06 (251–300)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (251, 'Comercial Paulista Ltda', '02.345.678/0001-251', 'São Paulo', 'SP', '(11) 3233-4455'),
 (252, 'Distribuidora Minas ME', '13.456.789/0001-252', 'Belo Horizonte', 'MG', '(31) 3444-5566'),
@@ -321,7 +332,8 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (300, 'Confecções Almeida Ltda', '01.234.567/0001-300', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
 
---pacote 301 ao 350
+-- Bloco 07 (301–350)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (301, 'Comercial União Ltda', '02.345.678/0001-301', 'São Paulo', 'SP', '(11) 3233-4455'),
 (302, 'Distribuidora Sul ME', '13.456.789/0001-302', 'Porto Alegre', 'RS', '(51) 3444-5566'),
@@ -375,7 +387,8 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (350, 'Confecções Almeida Ltda', '01.234.567/0001-350', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
 
---pacote 351 ao 400
+-- Bloco 08 (351–400)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (351, 'Comercial União Ltda', '02.345.678/0001-351', 'São Paulo', 'SP', '(11) 3233-4455'),
 (352, 'Distribuidora Sul ME', '13.456.789/0001-352', 'Porto Alegre', 'RS', '(51) 3444-5566'),
@@ -429,7 +442,8 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (400, 'Confecções Almeida Ltda', '01.234.567/0001-400', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
 
---pacote 401 ao 450
+-- Bloco 09 (401–450)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (401, 'Comercial União Ltda', '02.345.678/0001-401', 'São Paulo', 'SP', '(11) 3233-4455'),
 (402, 'Distribuidora Sul ME', '13.456.789/0001-402', 'Porto Alegre', 'RS', '(51) 3444-5566'),
@@ -483,7 +497,8 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (450, 'Confecções Almeida Ltda', '01.234.567/0001-450', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
 
---pacote 451 ao 500
+-- Bloco 10 (451–500)
+
 INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, telefone) VALUES
 (451, 'Comercial União Ltda', '02.345.678/0001-451', 'São Paulo', 'SP', '(11) 3233-4455'),
 (452, 'Distribuidora Sul ME', '13.456.789/0001-452', 'Porto Alegre', 'RS', '(51) 3444-5566'),
@@ -536,3 +551,5 @@ INSERT INTO fornecedor (id_fornecedor, nome_fornecedor, cnpj, cidade, estado, te
 (499, 'Auto Peças Ferreira ME', '90.123.456/0001-499', 'Fortaleza', 'CE', '(85) 3888-9900'),
 (500, 'Confecções Almeida Ltda', '01.234.567/0001-500', 'Manaus', 'AM', '(92) 3444-5566');
 commit;
+
+-- Fim do arquivo de inserção de dados para a tabela fornecedor
