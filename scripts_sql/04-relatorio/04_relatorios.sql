@@ -16,6 +16,7 @@ JOIN item_venda iv ON v.id_venda = iv.id_venda
 GROUP BY c.nome
 ORDER BY valor_total DESC;
 
+
 -- 3. Relatório de fornecedores e seus produtos com estoque baixo
 SELECT f.id_fornecedor, f.nome AS fornecedor, p.id_produto, p.nome_produto AS produto, p.categoria, p.estoque
 FROM fornecedor f
